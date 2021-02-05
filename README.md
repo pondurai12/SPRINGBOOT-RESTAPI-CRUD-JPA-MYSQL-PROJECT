@@ -1,6 +1,13 @@
 # SPRINGBOOT-RESTAPI-CRUD-JPA-MYSQL-PROJECT
 SPRINGBOOT REST CRUD OPERATION 
 
+Technologies: JAVA,SPRINGBOOT,MYSQL
+Tools Used: SPRING STS ,Xampp server,MySQL Db,POSTMAN.
+Description: Web service for interview candidates ,we can create,read,update,delete candidates with name,skills,qualification.when  POST request candidate will save candidate table on interview database.on GET request retrieve all candidates.on PUT request update the particular candidate field data and on DELETE request delete candidate by id.CRUD operations done by JPA repository.
+
+
+URLS:
+
 GET http://localhost:8988/interview/candidates/
 
 GET http://localhost:8988/interview/candidates/1
